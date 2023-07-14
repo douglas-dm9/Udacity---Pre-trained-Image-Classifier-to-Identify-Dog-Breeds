@@ -5,7 +5,7 @@
 # PROGRAMMER: Douglas Melo dos Santos
 # DATE CREATED: 2023-07-06                                  
 # REVISED DATE: 2023-07-06
-# PURPOSE: Create the function get_pet_labels that creates the pet labels from 
+# PURPOSE: In this code I create the function get_pet_labels that creates the pet labels from 
 #          the image's filename. This function inputs: 
 #           - The Image Folder as image_dir within get_pet_labels function and 
 #             as in_arg.dir for the function call within the main function. 
@@ -19,7 +19,7 @@
 # Imports python modules
 from os import listdir
 
-# TODO 2: Define get_pet_labels function below please be certain to replace None
+# TODO 2: Here get_pet_labels is defined .Please be certain to replace None
 #       in the return statement with results_dic dictionary that you create 
 #       with this function
 # 

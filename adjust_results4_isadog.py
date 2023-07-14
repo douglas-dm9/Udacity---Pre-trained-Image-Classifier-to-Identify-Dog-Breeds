@@ -5,7 +5,7 @@
 # PROGRAMMER: Douglas Melo dos Santos
 # DATE CREATED: 2023-07-09                                
 # REVISED DATE: 2023-07-09
-# PURPOSE: Create a function adjust_results4_isadog that adjusts the results 
+# PURPOSE: This code creates the function adjust_results4_isadog that adjusts the results 
 #          dictionary to indicate whether or not the pet image label is of-a-dog, 
 #          and to indicate whether or not the classifier image label is of-a-dog.
 #          All dog labels from both the pet images and the classifier function
@@ -31,8 +31,7 @@
 #           label isn't a dog.
 #
 ##
-# TODO 4: Define adjust_results4_isadog function below, specifically replace the None
-#       below by the function definition of the adjust_results4_isadog function. 
+# TODO 4: Here, the  adjust_results4_isadog function is created. 
 #       Notice that this function doesn't return anything because the 
 #       results_dic dictionary that is passed into the function is a mutable 
 #       data type so no return is needed.

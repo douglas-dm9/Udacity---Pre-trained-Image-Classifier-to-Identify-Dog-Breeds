@@ -5,8 +5,8 @@
 # PROGRAMMER: Douglas Melo dos Santos
 # DATE CREATED: 2023-07-09                                  
 # REVISED DATE: 2023-07-09
-# PURPOSE: Create a function calculates_results_stats that calculates the 
-#          statistics of the results of the programrun using the classifier's model 
+# PURPOSE: This code creates de function calculates_results_stats that do the 
+#          calculation of statistics of the results of the programrun using the classifier's model 
 #          architecture to classify the images. This function will use the 
 #          results in the results dictionary to calculate these statistics. 
 #          This function will then put the results statistics in a dictionary
@@ -38,7 +38,8 @@
 #            pct_correct_notdogs - percentage of correctly classified NON-dogs
 #
 ##
-# TODO 5: Define calculates_results_stats function below, please be certain to replace None
+# TODO 5: Next I'll be defining the calculates_results_stats function , 
+#     please be certain to replace None
 #       in the return statement with the results_stats_dic dictionary that you create 
 #       with this function
 # 

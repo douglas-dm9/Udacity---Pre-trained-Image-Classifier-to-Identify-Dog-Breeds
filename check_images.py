@@ -6,7 +6,8 @@
 # PROGRAMMER: Douglas Melo dos Santos
 # DATE CREATED: 2023-07-06                                  
 # REVISED DATE: 2023-07-06  
-# PURPOSE: Classifies pet images using a pretrained CNN model, compares these
+# PURPOSE: This code here classifies the pet images
+#           using a pretrained CNN model that was trained in classifier.py, compares these
 #          classifications to the true identity of the pets in the images, and
 #          summarizes how well the CNN performed on the image classification task. 
 #          Note that the true identity of the pet (or object) in the image is 

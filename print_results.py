@@ -62,20 +62,15 @@ def print_results(results_dic, results_stats_dic, model,
     Returns:
            None - simply printing results.
     """    
-    # Summary statistics
-    print("\n\n*** Results Summary for CNN Model Architecture",model.upper(), 
-          "***")
-    print("{:20}: {:3d}".format('N Images', results_stats_dic['n_images']))
-    print("{:20}: {:3d}".format('N Dog Images', results_stats_dic['n_dogs_img']))
-    print("{:20}: {:3d}".format('N Not-Dog Images', results_stats_dic['n_notdogs_img']))
-    """          
-    print("{:20}: {:3d}".format('% Correct Dogs', results_stats_dic['pct_correct_dogs']))
-    print("{:20}: {:3d}".format('% Correct Breed', results_stats_dic['pct_correct_breed']))
-    print("{:20}: {:3d}".format('% Correct "Not-a" Dog', results_stats_dic['pct_correct_notdogs']))
-    """
-    print(" ")
+
+
+    print('Number of Images classified: {}').format(results_stats_dic['n_images'])
+    print('Number of Images that are  a dog{}').format(results_stats_dic['n_dogs_img'])
+    print('Number of Images that are not dog: {}').format(results_stats_dic['n_notdogs_img'])
+    
+
     for key in results_stats_dic:
-        if key.startswith('p'):
+        if key[0] == 'p':
             print("{}: {}".format(key, results_stats_dic[key]))
             
     if (print_incorrect_dogs and 
